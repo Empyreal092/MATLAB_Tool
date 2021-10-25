@@ -7,6 +7,7 @@ set(groot,'defaulttextinterpreter','latex');
 set(groot, 'defaultAxesTickLabelInterpreter','latex');
 set(groot, 'defaultLegendInterpreter','latex');
 
+% color friendly to colorblindness
 cm_cb = [0 114 178;
          213 94 0;
          0 158 115;

@@ -1,3 +1,5 @@
+% convert all fig files in the folder to eps files
+% to use, go into the figure folder and run this file
 
 set(0,'DefaultFigureVisible','off')
 
