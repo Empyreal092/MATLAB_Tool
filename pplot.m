@@ -1,10 +1,10 @@
-function pplot(width,h_ratio,font)
+function pplot(width,height2width_ratio,font)
 % make plot pretty (enough) and 
 % appear in the right place (for my dual monitor setup, some tinkering might be needed for you setup)
 
 arguments
     width
-    h_ratio
+    height2width_ratio
     font = 10;
 end
 
@@ -30,7 +30,7 @@ else
 	y0=2;
 end
 
-set(gcf,'Units','centimeters','innerposition',[x0,y0,width,width*h_ratio])
+set(gcf,'Units','centimeters','innerposition',[x0,y0,width,width*height2width_ratio])
 
 end
 
