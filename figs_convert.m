@@ -1,4 +1,4 @@
-function [] = convert_figs(file_type)
+function [] = figs_convert(file_type)
 % call this function to convert all fig files in the folder to another type of files (the default is eps).
 % input the file type as string
 
