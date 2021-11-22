@@ -1,4 +1,4 @@
-function grid_func_error = grid_func_norm(grid_func_1,grid_func_2,p,gridsize)
+function grid_func_error = grid_func_norm(grid_func_1,grid_func_2,p)
 %% 
 % Calcuate the grid function norm of the difference between 2 function
 % Output: 
@@ -11,11 +11,12 @@ function grid_func_error = grid_func_norm(grid_func_1,grid_func_2,p,gridsize)
 
 %%
 if p == "inf" % inf norm means maximum of the absolute value of the function
-    grid_func_error = max(abs(grid_func_1-grid_func_2));
+    grid_func_error = max(abs(grid_func_1-grid_func_2),[],'all');
 else
+    [Nx,Ny] = size(grid_func_1);
     p = str2num(p);
     grid_diff = abs(grid_func_1-grid_func_2).^p;
-    grid_diff = sum(grid_diff)*gridsize;
+    grid_diff = sum(grid_diff,'all')/(Nx*Ny);
     grid_func_error = grid_diff.^(1/p);
 end
 end
