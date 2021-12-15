@@ -4,7 +4,7 @@ Specifically, if some MATLAB code I wrote prompts you that some scripts are miss
 
 I set up my MATLAB to have these tools available by default. 
 To do this, I change the MATLAB [``userpath``](https://www.mathworks.com/help/matlab/ref/userpath.html) to the folder containing these files. 
-This way on MATLAB startup these files will be in MATLAB's search path and [``startup.m``](https://github.com/Empyreal092/MATLAB_Tool/blob/main/startup.m) will run.
+This way on MATLAB startup [``startup.m``](https://github.com/Empyreal092/MATLAB_Tool/blob/main/startup.m) will run and these files will be in MATLAB's search path.
 
 Additional to these files, I also have [matlab-schemer](https://github.com/Empyreal092/matlab-schemer), [chebfun](http://www.chebfun.org/), and [FINUFFT](https://finufft.readthedocs.io/en/latest/index.html) in the folder.
 
