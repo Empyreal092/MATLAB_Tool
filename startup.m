@@ -1,3 +1,3 @@
-figure_default
+addpath(genpath(userpath))
 
-addpath(genpath(pwd))
+figure_default
