@@ -1,3 +1,9 @@
 [submodule "matlab-schemer"]
 	path = matlab-schemer
 	url = https://github.com/Empyreal092/matlab-schemer.git
+[submodule "finufft"]
+	path = finufft
+	url = https://github.com/Empyreal092/finufft.git
+[submodule "chebfun"]
+	path = chebfun
+	url = https://github.com/chebfun/chebfun.git
