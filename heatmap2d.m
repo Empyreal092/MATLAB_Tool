@@ -12,6 +12,7 @@ else
 end
 set(colorplot, 'EdgeColor', 'none')
 colorbar
+axis equal
 
 end
 
