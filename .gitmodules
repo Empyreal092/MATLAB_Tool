@@ -7,3 +7,6 @@
 [submodule "chebfun"]
 	path = chebfun
 	url = https://github.com/chebfun/chebfun.git
+[submodule "CVX"]
+	path = CVX
+	url = https://github.com/cvxr/CVX.git
