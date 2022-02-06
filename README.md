@@ -16,7 +16,7 @@ Now a description of what these scripts does:
 3. [``figs_convert.m``](https://github.com/Empyreal092/MATLAB_Tool/blob/main/figs_convert.m): call this function to convert all fig files in the folder to another type of files (the default is eps).
 4. [``subaxis.m``](https://github.com/Empyreal092/MATLAB_Tool/blob/main/subaxis/subaxis.m): tools to make formatting subplots easier. From [MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/3696-subaxis-subplot), authored by Aslak Grinsted. I made a modification to fix an oversight of the original version, see detail in [``Ryan_change.txt``](https://github.com/Empyreal092/MATLAB_Tool/blob/main/subaxis/Ryan_change.txt).
 
-To also clone the submodules of this repository, use the insturction about ``git submodule`` available [here](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Specifically, you could clong using
+To also clone the submodules of this repository, use the insturction about ``git submodule`` available [here](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Specifically, you could clone using
 ```
 git clone --recursive -j8 https://github.com/Empyreal092/MATLAB_Tool.git
 ```
