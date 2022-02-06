@@ -18,7 +18,7 @@ Now a description of what these scripts does:
 
 To also clone the submodules of this repository, use the insturction about ``git submodule`` available [here](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Specifically, you could clone using
 ```
-git clone --recursive -j8 https://github.com/Empyreal092/MATLAB_Tool.git
+git clone ----recurse-submodules -j8 https://github.com/Empyreal092/MATLAB_Tool.git
 ```
 or after you have cloned this repo, ``cd`` into the folder, and type in
 ```
