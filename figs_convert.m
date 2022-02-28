@@ -3,7 +3,7 @@ function [] = figs_convert(file_type)
 % input the file type as string
 
 arguments
-    file_type = "eps";
+    file_type = "pdf";
 end
 
 set(0,'DefaultFigureVisible','off')
@@ -14,9 +14,15 @@ for i = 1:height(files)
     fig_nm = files(i).name;
     fig_file = openfig(fig_nm);
     if file_type == "eps"
-        saveas(fig_file,fig_nm(1:end-4),"epsc")
+%         saveas(fig_file,fig_nm(1:end-4),"epsc")
+        ax = gca; exportgraphics(ax,fig_nm(1:end-4)+".eps",'ContentType','vector','BackgroundColor','none')
+    elseif file_type == "pdf"
+        ax = gca; exportgraphics(ax,fig_nm(1:end-4)+".pdf",'ContentType','vector','BackgroundColor','none')
+    elseif file_type == "png"
+        ax = gca; exportgraphics(ax,fig_nm(1:end-4)+".png",'BackgroundColor','none')
     else
         saveas(fig_file,fig_nm(1:end-4),file_type)
+%         ax = gca; exportgraphics(ax,fig_nm(1:end-4)+"."+file_type,'ContentType','vector')
     end
 end
 
