@@ -6,6 +6,7 @@ set(groot, 'DefaultAxesFontName', 'Times New Roman')
 set(groot,'defaulttextinterpreter','latex');
 set(groot, 'defaultAxesTickLabelInterpreter','latex');
 set(groot, 'defaultLegendInterpreter','latex');
+set(groot,'defaultFigurePaperPositionMode','manual')
 
 % color friendly to colorblindness
 cm_cb = [0 114 178;

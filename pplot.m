@@ -8,14 +8,14 @@ arguments
     font = 10;
 end
 
-set(groot,'DefaultLineLineWidth',1)
-set(groot,'DefaultAxesLineWidth',1)
-set(groot,'DefaultAxesFontSize',12)
-set(groot,'DefaultLegendFontSize',8)
-set(groot, 'DefaultAxesFontName', 'Times New Roman')
-set(groot,'defaulttextinterpreter','latex');
-set(groot, 'defaultAxesTickLabelInterpreter','latex');
-set(groot, 'defaultLegendInterpreter','latex');
+% set(groot,'DefaultLineLineWidth',1)
+% set(groot,'DefaultAxesLineWidth',1)
+% set(groot,'DefaultAxesFontSize',12)
+% set(groot,'DefaultLegendFontSize',8)
+% set(groot, 'DefaultAxesFontName', 'Times New Roman')
+% set(groot,'defaulttextinterpreter','latex');
+% set(groot, 'defaultAxesTickLabelInterpreter','latex');
+% set(groot, 'defaultLegendInterpreter','latex');
 
 num_plot_curr_open = mod(length(findobj('type','figure'))-1,8)+1;
 % num_plot_curr_open = 3;
