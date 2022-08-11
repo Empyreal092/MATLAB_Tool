@@ -12,7 +12,7 @@ else
 end
 set(colorplot, 'EdgeColor', 'none')
 colorbar
-axis equal
+% axis equal
 
 end
 
