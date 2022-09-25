@@ -19,7 +19,7 @@ for i = 1:height(files)
     elseif file_type == "pdf"
         ax = gcf; exportgraphics(ax,fig_nm(1:end-4)+".pdf",'ContentType','vector','BackgroundColor','none')
     elseif file_type == "png"
-        ax = gcf; exportgraphics(ax,fig_nm(1:end-4)+".png",'BackgroundColor','none')
+        ax = gcf; exportgraphics(ax,fig_nm(1:end-4)+".png",'BackgroundColor','none','Resolution',400)
     else
         saveas(fig_file,fig_nm(1:end-4),file_type)
 %         ax = gca; exportgraphics(ax,fig_nm(1:end-4)+"."+file_type,'ContentType','vector')
